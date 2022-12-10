@@ -13,6 +13,7 @@ header
     /* background-color: aquamarine; */
     border: aqua;
     border: 20px;
+    position: fixed;
 }
 
 ul li
@@ -60,5 +61,25 @@ ul li
     color: antiquewhite;
     padding-left: 650px;
     padding-bottom: 500px;
+    margin: -350px;
+    margin-left: 50px;
     
 }
+footer ul
+{
+    display: flex;
+    float: right;
+    margin: 50px;
+    list-style: none;
+    margin-top: 400px;
+    
+}
+button
+{
+    color: white;
+    border-color: rgb(43, 226, 58);
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: medium;
+}
+button:hover{background-color: rgb(113, 113, 206);}
